@@ -39,7 +39,7 @@ There are 12 files named according to the convention 'YYYYMM-divvy-tripdata', wh
 ### Combining the Data
 
 I chose to use R to combine the 12 files since the total number of rows is 5,734,381, which is too large for Excel or Spreadsheets to process.
-This is how I did it: [Combining the data]
+This is how I did it: [Combining the data](https://github.com/FanumTax6767/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/1.%20Combining%20the%20Data.R)
 I also removed the following columns as I thought they were not relevant to the question I was trying to answer: start_lat, start_lng, end_lat, end_lng, start_station_id, end_station_name, ride_id, end_station_id and start_station_name(In retrospect I should have done this later on in the process).
 
 ### Data Exploration
@@ -55,6 +55,8 @@ First I loaded the data into SQL, then made some queries to understand the data 
 3. I checked for ride times that were over 1 day, of which there were 7,335. I also checked for ride durations under a minute, of which there were 91,369.
 <img width="107" alt="Screenshot 2024-08-07 at 5 02 10 PM" src="https://github.com/user-attachments/assets/13b93179-00b3-4e58-bd85-763e4f3f9ff3">
 <img width="86" alt="Screenshot 2024-08-07 at 5 02 32 PM" src="https://github.com/user-attachments/assets/fadf020b-e3ea-46df-b3dc-27ad0cc23a6e">
+
+Here is my SQL query:[Data Exploration](https://github.com/FanumTax6767/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/2.%20Data%20Exploration.sql)
 
 ### Cleaning the Data
 
