@@ -41,3 +41,12 @@ percentage_table <- SQL_bike %>%
   ungroup()
 percentage_table
 
+ride_counts <- SQL_bike %>%
+  group_by(membership_type, day_of_week) %>%
+  summarise(ride_count = n()) %>%
+  ungroup()
+ride_counts_wide <- ride_counts %>%
+  pivot_wider(names_from = membership_type, values_from = ride_count, values_fill = list(ride_count = 0))
+ride_counts_wide
+
+
