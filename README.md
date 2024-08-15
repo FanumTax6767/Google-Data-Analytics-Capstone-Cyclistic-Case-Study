@@ -59,3 +59,9 @@ First I loaded the data into SQL, then made some queries to understand the data 
 ### Cleaning the Data
 
 I removed all of the rows that were duplicates and also rows where the ride time was over a day or under a minute. Total number of rows removed was 142,879, which left us with 5,591,502 rows of data to analyze.
+
+I also added three columns:
+
+1. Days of the week that the rides started at (MON~SUN).
+2. Months that the rides took place in (JAN~DEC).
+3. Duration of the trips.
