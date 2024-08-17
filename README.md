@@ -117,6 +117,7 @@ Casual users, however, have a steady rise in the number of rides from 8 a.m. unt
 
 Lastly, the avarage trip duration for the different users:
 <img width="641" alt="Screenshot 2024-08-08 at 3 07 33 AM" src="https://github.com/user-attachments/assets/82ef3091-6dc4-4dbd-96f9-f702d1d3d7d9">
+
 We can see that on avarage, causual users have a much longer trip duration than members.
 
 
