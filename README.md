@@ -93,6 +93,7 @@ This is the question I'm aiming to answer: How do annual members and casual ride
 First of all let's take a look at the Ridable type percentages for members and casual users:
 
 <img width="847" alt="Screenshot 2024-08-08 at 2 55 53 AM" src="https://github.com/user-attachments/assets/b4439ae5-98fd-443f-a2d7-a7014ab22519">
+
 We can see that there is no significant difference in the use rates of the classic and electric bikes between members and casual riders. However we can see that 100% of the docked bike rides were by casual users.
 
 
@@ -100,6 +101,7 @@ We can see that there is no significant difference in the use rates of the class
 Next let's examine the days of the week that the rides took place:
 
 <img width="902" alt="Screenshot 2024-08-16 at 2 30 41 PM" src="https://github.com/user-attachments/assets/3a75f8cb-151c-4055-b329-65b7ae79dc2e">
+
 There is an noticable difference in what day of the week the different users choose the use Cyclistic.
 Casual users much more frequently ride on the weekend, while members are the exact opposite, with the weekends having the least amount of rides. 
 
@@ -108,6 +110,7 @@ Casual users much more frequently ride on the weekend, while members are the exa
 The total rides every month are examined below:
 
 <img width="902" alt="Screenshot 2024-08-16 at 2 30 59 PM" src="https://github.com/user-attachments/assets/66f37179-1370-4621-81ac-e3b0c9ba324a">
+
 Both casual users and members had more rides during summer and spring, with far less in winter.
 
 
@@ -115,6 +118,7 @@ Both casual users and members had more rides during summer and spring, with far 
 Next up is the time of day that the rides took place:
 
 <img width="633" alt="Screenshot 2024-08-08 at 2 59 56 AM" src="https://github.com/user-attachments/assets/aa88589c-4fc0-4168-989c-fadcb3f69dd7">
+
 The members have two spikes in the number of rides during commute hours (8 a.m. and 5 p.m.)
 Casual users, however, have a steady rise in the number of rides from 8 a.m. until 5 p.m., with it dropping off after that.
 
